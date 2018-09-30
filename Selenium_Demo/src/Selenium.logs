@@ -1,0 +1,7 @@
+18:08:52,070 DEBUG devpinoyLogger<strong>{1}</strong>:22 - Method F - Before Reporter,log execution 
+18:08:52,074 DEBUG devpinoyLogger<strong>{1}</strong>:24 - Method F - After Reporter,log execution 
+18:08:52,075 DEBUG devpinoyLogger<strong>{1}</strong>:25 - Method F - Before Assertion 
+18:08:52,087 DEBUG devpinoyLogger<strong>{1}</strong>:31 - Method G - Before Reporter,log execution 
+18:08:52,088 DEBUG devpinoyLogger<strong>{1}</strong>:33 - Method G - After Reporter,log execution 
+18:08:52,088 DEBUG devpinoyLogger<strong>{1}</strong>:34 - Method G - Before Assertion 
+18:08:52,089 DEBUG devpinoyLogger<strong>{1}</strong>:36 - Method G - After Assertion 
