@@ -31,8 +31,7 @@ public class OrangeHRM
 //				.withTimeout(10, TimeUnit.SECONDS)
 //				.ignoring(NoSuchElementException.class);
 //		
-//		refWait.until(ExpectedConditions.visibilityOfElementLocated(By.id("ID")));
-		
+//		refWait.until(ExpectedConditions.visibilityOfElementLocated(By.id("ID")));	
 		JavascriptExecutor js=(JavascriptExecutor)driver;
 		
 		WebDriverWait wait=new WebDriverWait(driver, 5);
@@ -41,6 +40,7 @@ public class OrangeHRM
 		WebElement userTextBox=driver.findElement(By.id("txtUsername"));
 		js.executeScript("arguments[0].setAttribute('style','background: yellow; border: 3px solid red;');", userTextBox);
 		userTextBox.sendKeys("Nitish");
+		
 		
 		Thread.sleep(5000);
 		driver.quit();
