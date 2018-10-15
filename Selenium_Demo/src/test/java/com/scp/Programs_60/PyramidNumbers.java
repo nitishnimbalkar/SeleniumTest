@@ -4,12 +4,12 @@ public class PyramidNumbers {
 
 	public static void main(String[] args) {
 		Integer number=9;
-//		pyramidPattern2Reverse(number);
-//		pyramidPattern1(number);
-//		pyramidPattern2(number);
-//		pyramidPattern3(number);
-//		pyramidPattern4(number);
-//		pyramidPattern5(number);
+		pyramidPattern2Reverse(number);
+		pyramidPattern1(number);
+		pyramidPattern2(number);
+		pyramidPattern3(number);
+		pyramidPattern4(number);
+		pyramidPattern5(number);
 		pyramidPattern6(number);
 		
 	}
@@ -28,8 +28,8 @@ public class PyramidNumbers {
 				System.out.print(number-i+1+" ");
 			}
 			System.out.println();
-			
 		}
+		System.out.println();
 	}
 
 	public static void pyramidPattern2(Integer number)
@@ -45,8 +45,8 @@ public class PyramidNumbers {
 				System.out.print(j+" ");
 			}
 			System.out.println();
-			
 		}
+		System.out.println();
 	}
 	
 	public static void pyramidPattern2Reverse(Integer number)
@@ -62,8 +62,8 @@ public class PyramidNumbers {
 				System.out.print(j+" ");
 			}
 			System.out.println();
-			
 		}
+		System.out.println();
 	}
 	
 	public static void pyramidPattern3(Integer number)
@@ -79,8 +79,8 @@ public class PyramidNumbers {
 				System.out.print("* ");
 			}
 			System.out.println();
-			
 		}
+		System.out.println();
 	}
 	
 	public static void pyramidPattern4(Integer number)
@@ -103,6 +103,7 @@ public class PyramidNumbers {
 			}
 			System.out.println();
 		}
+		System.out.println();
 	}
 
 	public static void pyramidPattern5(Integer number)
@@ -123,13 +124,14 @@ public class PyramidNumbers {
 				System.out.print("  ");
 			}
 		}
+		System.out.println();
 	}
 	
 	public static void pyramidPattern6(Integer number)
 	{
 		for(int i=number ; i>=1 ; i--)
 		{
-			for(int j=1 ; j<=i ; j++)
+			for(int j=1 ; j<i ; j++)
 			{
 				System.out.print("  ");
 			}
@@ -143,6 +145,6 @@ public class PyramidNumbers {
 			}
 			System.out.println();		
 		}
+		System.out.println();
 	}
-	
 }
