@@ -6,7 +6,10 @@ public class SecondLargestNumber {
 
 	public static void main(String[] args) 
 	{
-		Integer[] array= {0,10,1,4,6,9,2};
+//		Integer[] array= {0,10,1,4,6,9,2};
+		
+		Integer[] array= {2,2,1,0};
+		
 		Integer[] array1=new Integer[1];
 		SecondLargest(array);
 		SecondLargestUsingUtilities(array1);
